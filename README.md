@@ -70,9 +70,13 @@ Members-
 ## Contact Information
 
 If you encounter any issues or need assistance, please contact our support team at 
+
 220010043@iitdh.ac.in
+
 220120011@iitdh.ac.in
+
 220120029@iitdh.ac.in
+
 220010004@iitdh.ac.in
 
 We value your feedback and are committed to continuously improving our services to create a better college experience for all. Thank you for using the College Complaint Portal!
