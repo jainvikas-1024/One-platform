@@ -1,7 +1,7 @@
 ## Project Name
 
- Common Problem Registration Portal
- 
+Common Complain Portal
+
 In our developing college, students face diverse issues – technical glitches, cleanliness, and more. To empower them, we built the 'Complaint Registration Portal' for voicing concerns effectively.
 
 # College Complaint Portal
@@ -69,6 +69,10 @@ Members-
 
 ## Contact Information
 
-If you encounter any issues or need assistance, please contact our support team at 220010043@iitdh.ac.in,220120011@iitdh.ac.in,220120029@iitdh.ac.in,220010004@iitdh.ac.in
+If you encounter any issues or need assistance, please contact our support team at 
+220010043@iitdh.ac.in
+220120011@iitdh.ac.in
+220120029@iitdh.ac.in
+220010004@iitdh.ac.in
 
 We value your feedback and are committed to continuously improving our services to create a better college experience for all. Thank you for using the College Complaint Portal!
