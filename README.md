@@ -1,3 +1,3 @@
 # Hacktopians_12
 In our developing college, students face diverse issues – technical glitches, cleanliness, and more. To empower them, we built the 'Complaint Registration Portal' for voicing concerns effectively
-egrthtrutdfergtrgtrgtrtrhtrh
+Our 'Complaint Registration Portal' is a tech-driven solution designed to enhance student experiences in our developing college. This platform seamlessly integrates various technologies, including HTML, CSS, JavaScript, and PHP. These technologies work together to provide a user-friendly and interactive interface for students to register and track their complaints. With the combination of these tools, we've created an efficient system that not only reports issues but also streamlines communication with college authorities for faster issue resolution. This tech-powered portal is a testament to our commitment to leveraging innovation for the betterment of our college community
