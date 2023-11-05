@@ -24,7 +24,7 @@ Welcome to the College Complaint Portal, where you can voice your concerns and g
 
 - *Feedback Mechanism*: After a complaint is resolved, you can provide feedback on the outcome and the handling of your complaint.
 
-## Getting Started
+## How to use
 
 To get started with the project, follow these steps:
 
