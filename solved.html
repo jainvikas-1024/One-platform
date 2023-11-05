@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solved</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url(college2.jpg );
+            background-size: cover;
+            backdrop-filter: blur(10px);
+        }
+        .left{
+            margin-left: -30px;
+        }
+        .li:hover{
+            transform: scale(1.1);
+        }
+        .li:active{
+            color: white;
+        }
+        .merge{
+            display: flex;
+        }
+        .button-heading {
+            margin-top: 10px;
+        }
+        .button-image {
+            width: 100px;
+            height: 100px;
+        }
+        .cleaniness{
+          background-color: rgb(255, 217, 2);
+          padding: 10px;
+          width: 200px;
+        }
+        .bottom-container {
+          display: flex;
+          justify-content: space-around;
+          text-align: center;
+        }
+        
+        .submit:hover{
+          background-color: rgb(4, 4, 227);
+        }
+        .section{
+            padding-left: 50px;
+            padding-top: 25px;
+        }
+        .submit-button {
+            background-color: #007acc;
+            color: #fff;
+            height: 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .submit-button:hover {
+            background-color: #01518a;
+        }
+        .op{
+          display: flex;
+        }
+        .h{
+          margin: 30px;
+        }
+    </style>
+</head>
+<body>
+  <div class="op">
+    <div class="merge">
+    <div class="full blur">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px; height: 100vh;">
+        <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"></svg>
+          <span class="fs-4">Main Menu</span>
+        </a>
+        <hr>
+        <ul class="nav flex-column mb-auto">
+          <li class="nav-item left li">
+            <a href="solved.html" class="nav-link active" aria-current="page">
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+              Solved
+            </a>
+          </li>
+          <li class="li left">
+            <a href="category.html" class="nav-link text-white">
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+              Categories
+            </a>
+          </li>
+          <li class="li left">
+            <a href="mainpage.html" class="nav-link text-white">
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+              Register
+            </a>
+          </li>
+          <li class="li left">
+            <a href="active.html" class="nav-link text-white">
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+              Active
+            </a>
+          </li>
+          
+        </ul>
+        <hr>
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="iitdh.svg.png" alt="" height="32" class="rounded-circle me-2">
+            <strong>User</strong>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="login.html">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+    </div>
+    <div>
+      <h1 class="h">Solved Items</h1>
+    <div id="solvedItems"></div>
+
+    <script>
+        // Retrieve the query parameter from the URL
+        const queryParams = new URLSearchParams(window.location.search);
+        const items = queryParams.get("items");
+
+        if (items) {
+            const itemsArray = items.split("\n");
+            const solvedItemsDiv = document.getElementById("solvedItems");
+
+            // Display the selected items
+            for (let i = 0; i < itemsArray.length; i++) {
+                const item = itemsArray[i].trim();
+                if (item !== "") {
+                    const paragraph = document.createElement("p");
+                    paragraph.appendChild(document.createTextNode(item));
+                    solvedItemsDiv.appendChild(paragraph);
+                }
+            }
+        }
+    </script>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 105vh;
+            margin: 0;
+            background-image: url("college2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            backdrop-filter: blur(10px);
+        }
+        .login-container {
+            display: flex;
+            max-width: 600px;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .left-side {
+            flex: 1;
+            padding: 20px;
+            background-color: #45b0aa;
+            color: #fff;
+            text-align: center;
+        }
+        .right-side {
+            flex: 2;
+            padding: 20px;
+            width: 120px;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 80%;
+            padding: 6px; /* Smaller padding */
+            font-size: 14px; /* Smaller font size */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #007acc;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #005b9c;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="left-side">
+            <img src="iitdh.svg.png" alt="Logo Image" class="logo">
+            <h1>IIT Dharwad Complaint Portal</h1>
+        </div>
+        <div class="right-side">
+            <h1>Login</h1>
+            <form action="category.html">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
